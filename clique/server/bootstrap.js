@@ -20,6 +20,8 @@ Meteor.startup(function() {
 			"picture": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/14067695_10154493797131757_8671186380823512233_n.jpg?oh=dbbb33d2b25271c8aaeb9441e1785a95&oe=584A07F3",
 			"filters": [],
 			"groups": [
+				{"group_id": 1, "last_login": 1473268660000, "last_logout": 1473268767800 },
+				{"group_id": 2, "last_login": 1473263512000, "last_logout": 1473263837834 }
 			]},
 			{
 				"userId": 10208538430513056,
@@ -27,7 +29,6 @@ Meteor.startup(function() {
 			"picture": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/1043978_10200724760056359_768476874_n.jpg?oh=64501cc61a45d6aada9b6812066214e0&oe=583A634D",
 			"filters": [],
 			"groups": [
-				{"group_id": 1, "last_login": 1473263560000, "last_logout": 1473264867834 }
 			]},
 			{
 				"userId": 10104868008374027,
@@ -35,7 +36,8 @@ Meteor.startup(function() {
 			"picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAATLAAAAJDU1ZmQ3YmNiLTRmOTYtNGJlNy1hMTI2LTIwZTEyMjc3OGQxNg.jpg",
 			"filters": [],
 			"groups": [
-				{"group_id": 1, "last_login": 1473263562000, "last_logout": 1473264887834 }
+				{"group_id": 1, "last_login": 1473263562000, "last_logout": 1473264887834 },
+				{"group_id": 2, "last_login": 1473263552000, "last_logout": 1473264837834 }
 			]}
 		];
 
@@ -45,6 +47,7 @@ Meteor.startup(function() {
 
 	const groups = [
 		{
+			"group_id": 1,
 			"member_id": [10153806388686408, 10104919159486808, 10104868008374027 ],
 			"messages": [
 				{
@@ -65,6 +68,7 @@ Meteor.startup(function() {
 			]
 		},
 		{
+			"group_id": 2,
 			"member_id": [10104919159486808, 10104868008374027 ],
 			"messages": [
 				{
